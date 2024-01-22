@@ -12,9 +12,8 @@ for i in range(desired_number_of_list):
     list.append(elements)
 
 
-
 # write the program to identify whether or not the first and last number of the list is the same
-def placeholder (list):
+def first_and_second_number_identifier (list):
     first_number = list [0]
     second_number = list [-1]
 
@@ -22,5 +21,6 @@ def placeholder (list):
         return True
     else:
         return False
-
-print(" The result is ", placeholder (list))
+    
+print("Your given list is ", list)
+print("\n""...And the result is",first_and_second_number_identifier(list))
