@@ -10,6 +10,17 @@ list = []
 for i in range(desired_number_of_list):
     elements = input("Input your element: ")
     list.append(elements)
-print(list)
-# write the program to identify whether or not the first and last number of the list is the same
 
+
+
+# write the program to identify whether or not the first and last number of the list is the same
+def placeholder (list):
+    first_number = list [0]
+    second_number = list [-1]
+
+    if first_number == second_number:
+        return True
+    else:
+        return False
+
+print(" The result is ", placeholder (list))
